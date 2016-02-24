@@ -1,28 +1,7 @@
-== README
+Users can...
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+-Sign up and log in/out
+-Post a translation assignment (displaying the title, number of words, and the language)
+-View any translation assignment by clicking on its title
+-Edit/delete their own assignments (but not others - permissions do not allow it)
+-Be redirected if they try to create a new assignment without first logging in
