@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @assignment.title %>
+</p>
+
+<p>
+  <strong>Length:</strong>
+  <%= @assignment.length %>
+</p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @assignment.language %>
+</p>
+
+<% if policy(@assignment).update? %>
+  <%= link_to 'Edit', edit_assignment_path(@assignment) %> |
+<% end %>
+<%= link_to 'Back', assignments_path %>
