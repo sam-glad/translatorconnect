@@ -6,7 +6,6 @@ class CreateAssignments < ActiveRecord::Migration
       t.string :language
 
       t.integer :created_by_user_id
-      t.integer :assigned_to_user_id
 
       t.timestamps null: false
     end
